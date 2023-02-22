@@ -4,7 +4,7 @@
 <head>
 
 	<!-- Font Awesome -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
 	<!-- Google Font -->
 
@@ -57,24 +57,21 @@
 
 <body>
 
+
 	<nav class="navMenu  border">
-		<a id="dashboard" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-chart-tree-map"></i> Dashboard</a>
-		<a id="areas" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-inbox"></i> Areas</a>
-		<a id="projects" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-bars-progress"></i> Projectss</a>
-
-		
-		
-		
-		<a id="week" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-calendar-week"></i> Planner</a>
-		<a id="tasks" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-list-check"></i> Tasks</a>
-		<a id="business" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-money-bill-wave"></i> Business</a>
-		<a id="knowledge" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-lightbulb"></i> Knowledge</a>
-		<a id="topics" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-layer-group"></i> Topics</a>
-		<a id="notes" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-book"></i> Notes</a>
-		<a id="media" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-bookmark"></i> Media</a>
-		<a id="resourses" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-wrench"></i> Resourses</a>
-		<a id="lifewiki" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-heart"></i> Lifewiki</a>
-
+		<a id="Ultimate Brain" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-heart"></i> Ultimate Brain</a>		
+		<a id="Dashboard" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-house"></i> Dashboard</a>
+		<a id="Areas" onclick="navigate(this.id)" href="#"> <img src="https://img.icons8.com/external-smashingstocks-isometric-smashing-stocks/55/null/external-Layers-art-and-culture-smashingstocks-isometric-smashing-stocks.png"/> Areas</a>
+		<a id="Projects" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-briefcase"></i> Projects</a>
+		<a id="Task Manager" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-calendar-week"></i> Task Manager</a>
+		<a id="Notes" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-list-check"></i> Notes</a>
+		<a id="Quick Capture" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-money-bill-wave"></i> Quick Capture</a>
+		<a id="My Day" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-book"></i> My Day</a>
+		<a id="Process" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-lightbulb"></i> Process</a>
+		<a id="Plan" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-lightbulb"></i> Plan</a>		
+		<a id="Goals" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-layer-group"></i> Goals</a>
+		<a id="Databases" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-bookmark"></i> Databases</a>
+		<a id="Archive" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-wrench"></i> Archive</a>
 
 
 	</nav>
@@ -89,33 +86,34 @@
 
 
 		function navigate(id) {
+			else if (id == "Ultimate Brain")
+				window.open("https://www.notion.so/davidburke/Ultimate-Brain-8b8733b4a83943308758ba1a07b77d14?pvs=4", '_blank').focus();
+			if (id == 'Dashboard')
+				window.open("https://www.notion.so/davidburke/Dashboard-5905fc99d4cb4517afe3ceed17f4196d?pvs=4", '_blank').focus();
+			else if (id == "Areas")
+				window.open("https://www.notion.so/davidburke/Areas-Resources-909fe28371c94ed0a6ccf38806e76fb6?pvs=4", '_blank').focus();
+			else if (id == "Projects")
+				window.open("https://example.com", '_blank').focus();
+			else if (id == "Task Manager")
+				window.open("https://example.com", '_blank').focus();
+			else if (id == "Notes")
+				window.open("https://example.com", '_blank').focus();
+			else if (id == "Quick Capture")
+				window.open("https://example.com", '_blank').focus();
+			else if (id == "My Day")
+				window.open("https://example.com", '_blank').focus();
+			else if (id == "Process")
+				window.open("https://example.com", '_blank').focus();
+			else if (id == "Plan")
+				window.open("https://example.com", '_blank').focus();			
+			else if (id == "Goals")
+				window.open("https://example.com", '_blank').focus();
+			else if (id == "Databases")
+				window.open("https://example.com", '_blank').focus();
+			else if (id == "Archive")
+				window.open("https://example.com", '_blank').focus();
 
-			if (id == 'dashboard')
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "areas")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "projects")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "month")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "projects")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "business")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "tasks")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "knowledge")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "topics")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "notes")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "media")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "resourses")
-				window.open("https://example.com3", '_blank').focus();
-			else if (id == "lifewiki")
-				window.open("https://example.com", '_blank').focus();
+
 
 		}
 	</script>
